@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Satvika's Reminder
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body{
+            background: url(https://wallpaperplay.com/walls/full/c/f/a/13885.jpg);
+        }
+        </style>
+        <script>
+          function additem(){
+            var x= document.getElementById("item")
+            var items= x.value ; 
+            document.getElementById("list").innerHTML+="<li>"+items+ " <input type='button' value='Delete' onclick='rmitem(this)'/> <br> </li>"
+            document.getElementById("myform").reset();
+
+        }
+        function rmitem(element){
+            element.parentElement.remove()
+        }
+
+        </script>
+    </head>
+    <body>
+        <div class=heading> To-Do List</div>
+        <form id="myform" style="margin-left:80px; margin-top: 70px;">
+            <label style="color:whitesmoke; font-style:italic; font-size: larger;">Add to list:</label>
+            <input type="text" id="item" placeholder="Enter your item" autocomplete="off">
+            <input type="button" value="Create Item" onclick="additem();"/>
+        </form>
+
+        <div class=heading2>NEED TO DO</div>
+        <div class=list>
+            <ul id=list>
+
+            </ul>
+        </div>
+
+    </body>
+</html>
