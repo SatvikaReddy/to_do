@@ -1,20 +1,13 @@
 .heading{
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight:120;
-    color: whitesmoke;
+    font-weight:100;
+    color: rgb(57, 57, 59);
     font-size: 60px;
     font-style: italic;
-    margin-left: 600px; 
-    margin-top: 50px;
+    margin-top: 30px;
 }
-.list{
-    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight:100;
-    color: whitesmoke;
-    font-size: larger;
-    margin-left: 50px;
-}
-.heading2{
+
+/* .heading2{
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight:360;
     color: whitesmoke;
@@ -23,4 +16,4 @@
     margin-left: 50px; 
     margin-top: 20px;
     padding: 20px;
-}
+} */
